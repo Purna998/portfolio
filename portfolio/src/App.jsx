@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Profile from "./assets/profile.png"
 import { 
   User, 
   Code, 
@@ -742,7 +743,7 @@ navButtonActive: {
             <div style={styles.heroImage} className="animate-on-scroll fade-right">
   <div style={styles.heroImageCircle} className="hero-image-circle">
     <img
-      src="./src/assets/profile.png"
+      src={Profile}
       alt="Profile"
       style={{
         width: '160px',
